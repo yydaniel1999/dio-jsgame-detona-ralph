@@ -32,6 +32,9 @@ body {
   align-items: center;
   font-size: 30px;
 }
+.hud__life img {
+  width: 60px;
+}
 .screen {
   flex: 1;
   display: flex;
