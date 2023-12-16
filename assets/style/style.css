@@ -58,3 +58,23 @@ body {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 600px) {
+  .card {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 450px) {
+  .hud {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hud h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+  }
+}
