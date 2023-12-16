@@ -3,3 +3,55 @@
 body {
   font-family: "Press Start 2P", sans-serif;
 }
+.container {
+  height: 100vh;
+  background-image: url("../img/wall.png");
+  display: flex;
+  flex-direction: column;
+}
+.hud {
+  background-color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 5px solid #c0c0c0;
+  padding: 10px;
+}
+.hud h2 {
+  color: #d82c2c;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.hud p {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+}
+.hud__life {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.screen {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: crosshair;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+.card {
+  border: 1px solid #000;
+  width: 200px;
+  height: 200px;
+  background-color: #66d19f;
+}
+.enemy {
+  background-image: url("../img/ralph.png");
+  background-size: cover;
+  background-position: center;
+}
